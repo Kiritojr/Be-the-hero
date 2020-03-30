@@ -23,3 +23,6 @@ A aplicação "Be The Hero" foi proposta na Semana OnmiStack 11.0 pela Rocktseat
     - expo-mail-composer;
     - intl;
     - feather icons;
+
+
+![EULFNxhXgAAWXcq](https://user-images.githubusercontent.com/59518539/77956622-91897b80-72a8-11ea-9b71-d036bb46cc81.jpeg)
