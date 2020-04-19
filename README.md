@@ -1,8 +1,8 @@
 # Be He Hero
 
-A aplicação "Be The Hero" foi proposta na Semana OnmiStack 11.0 pela Rocktseat, onde por meio dela as ONG's locais podem se cadastrar pelo site e adicionar casos que necessitem de ajuda financeira, onde pessoas dispostas a ajudar (Heróis) utilizam a aplicação mobile, selecionam o caso que desejam ajudar e entram em contato com a ONG por meio do WhatsApp ou E-mail.
+The application "Be The Hero" was proposed at OnmiStack 11.0 Week by Rocktseat, where through it local NGOs can register on the website and add cases that need financial help, where people willing to help (Heroes) use the mobile application, they select the case they want to help and contact the NGO through WhatsApp or E-mail.
 
-# Banco de Dados:
+# Database:
     - sqlite3;
 
 # Backend NodeJS:
