@@ -14,7 +14,7 @@ The application "Be The Hero" was proposed at OnmiStack 11.0 Week by Rocktseat, 
 # Frontend ReactJS:
     - axios;
     - intl;
-    - feather icons;
+    - feather-icons;
 
 # Mobile React Native:
     - axios;
@@ -22,7 +22,7 @@ The application "Be The Hero" was proposed at OnmiStack 11.0 Week by Rocktseat, 
     - expo-constants;
     - expo-mail-composer;
     - intl;
-    - feather icons;
+    - feather-icons;
 
 
 ![EULFNxhXgAAWXcq](https://user-images.githubusercontent.com/59518539/77956622-91897b80-72a8-11ea-9b71-d036bb46cc81.jpeg)
