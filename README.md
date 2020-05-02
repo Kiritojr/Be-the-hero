@@ -2,7 +2,7 @@
 
 The application "Be The Hero" was proposed at OnmiStack 11.0 Week by Rocktseat, where through it local NGOs can register on the website and add cases that need financial help, where people willing to help (Heroes) use the mobile application, they select the case they want to help and contact the NGO through WhatsApp or E-mail.
 
-# Database:
+# SGBD:
     - sqlite3;
 
 # Backend NodeJS:
