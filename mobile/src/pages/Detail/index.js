@@ -13,7 +13,12 @@ export default function Detail() {
   const route = useRoute();
 
   const incident = route.params.incident;
-  const message = `Olá ${incident.name}, estou entrando em contrato pois gostaria de ajuda com a causa "${incident.title}" com o valor de ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(incident.value)}`;
+  const message = `Olá ${incident.name}, 
+                  estou entrando em contrato pois gostaria de ajuda com a causa "${incident.title}"
+                  com o valor de ${Intl.NumberFormat('pt-BR', { 
+                                                                style: 'currency', 
+                                                                currency: 'BRL'})
+                                                                .format(incident.value)}`;
 
   function navigateBack() {
     navigation.goBack()
@@ -68,7 +73,8 @@ export default function Detail() {
 
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.action} onPress={ sendMail } >
+          <TouchableOpacity 
+             style={styles.action} onPress={ sendMail } >
             <Text style={styles.actionText}>E-mail</Text>
 
           </TouchableOpacity>
