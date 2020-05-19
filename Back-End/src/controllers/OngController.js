@@ -12,8 +12,8 @@ module.exports = {
 	async create(request, response) {
 		const { name, email, whatsapp, city, uf } = request.body;
 
-		const id = crypto.randomBytes(4).toString('HEX'); // Criptograva com 4Bytes de caracter aleatório e traduz em Hexadecimal
-		// Aguarda o codigo finalizar para continuar
+		const id = crypto.randomBytes(4).toString('HEX'); // Encrypts with 4Bytes of random character and translates to Hexadecimal
+		// Waits for code to finish to continue
 		await connection('ongs').insert({
 			id,
 			name,
@@ -21,7 +21,7 @@ module.exports = {
 			whatsapp,
 			city,
 			uf,
-		}); // Nome da tabela para inserir dados/colunas 
+		}); // Table name to insert data / columns 
 
 		return response.json({ id });
 		}
